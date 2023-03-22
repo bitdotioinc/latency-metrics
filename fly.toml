@@ -1,0 +1,13 @@
+app = "latency-tester"
+kill_signal = "SIGINT"
+kill_timeout = 5
+primary_region = "sjc"
+
+[http_service]
+  	internal_port = 9091
+	force_https = true
+
+
+[metrics]
+port = 9091
+path = "/metrics"
