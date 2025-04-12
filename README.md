@@ -1,2 +1,1 @@
-# latency-metrics
-databricks bugbounty POC
+# Databricks bugbounty POC
